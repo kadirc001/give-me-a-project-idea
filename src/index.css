@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body, 
+#root {
+  @apply flex flex-col w-full h-full items-center justify-center gap-4
+}
+
+a {
+  @apply text-sky-500 underline
+}
