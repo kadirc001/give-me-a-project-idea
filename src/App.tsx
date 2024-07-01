@@ -4,7 +4,7 @@ import Project from './components/Project'
 
 interface Idea {
   title: string,
-  articles: { href: string, title: string}[]
+  articles: { href: string, title: string, lang: string }[]
 }
 
 export default function App() {
